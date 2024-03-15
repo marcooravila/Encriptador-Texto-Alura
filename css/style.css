@@ -304,5 +304,101 @@ a {
     }
 }
 
+@media only screen and (max-width: 320px) {
+    body {
+        background: #16181d;
+        font-family: 'Inter', sans-serif;
+        margin-right: 1rem;
+    }
+    
+    .main, .form, .textarea, .small {
+        width: 100%;
+    }
+    
+    .main {
+        min-height: auto;
+        padding: 2em 1em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .logo {
+        max-width: 80%;
+        padding-bottom: 2rem;
+        display: flex;
+        justify-content: center; 
+    }
+    
+    .form {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .textarea {
+        min-height: 15rem;
+        padding: 0.5rem;
+        font-size: 1.25em;
+        border: 0.1em solid #CFE54A;
+        border-radius: 0.5rem;
+    }
+    
+    .small {
+        margin: 1rem 0;
+        color: #fff;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .buttons {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .button {
+        margin: 0.5rem;
+    }
+    
+    .saleTexto {
+        width: 80%;
+        min-height: 50vh;
+        margin: 1rem auto;
+    }
+    
+    .derecha {
+        margin: 1rem auto;
+        width: 80%;
+    }
+
+    .derecha p {
+        margin: 0.5rem 0;
+    }
+    
+    #textoNoEncontrado h2 {
+        margin: 0.5rem 0;
+    }
+      
+    #muneco {
+        margin-top: 2rem;
+        padding: 1rem;
+        height: 50%;
+    }
+    
+    .textoSalida {
+        min-height: 40vh;
+    }
+    
+    footer {
+        margin-bottom: 2rem;
+    }
+    
+    h3 {
+        text-align: center;
+    }
+}
+
 
     
