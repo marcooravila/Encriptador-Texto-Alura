@@ -6,12 +6,6 @@
     <img src="https://img.shields.io/badge/CSS-01A3D8?logo=css3&logoColor=FFFFFF&style=for-the-badge" />
 </div>
 
-## Descripción
-
-El Challenge consiste en crear una página web que pueda encriptar y desencriptar un texto ingresado por el usuario y
-mostrar dicho texto de forma encriptada o desencriptada. Challenge creado con los conocimientos adquiridos
-durante el curso de <br>"Principiante en programación"
-
 ## Llaves de encriptación
 
 Las llaves de encriptación solicitadas son las siguientes:
